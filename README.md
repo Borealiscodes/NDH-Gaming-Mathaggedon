@@ -2,7 +2,7 @@
 
 A Geometric Game Engine for Cognitive AI, Narrative Physics & World‑Rule Ecology
 
-Altitude: A0 → A9 • Multi‑Layer Runtime Architecture • TEX‑Backed Math Kernel
+Altitude: A0 → A9 • TEX‑Backed Math Kernel • Multi‑Layer Runtime Architecture
 
 ---
 
@@ -10,81 +10,50 @@ Altitude: A0 → A9 • Multi‑Layer Runtime Architecture • TEX‑Backed Math
 
 | Tile | Meaning |
 |------|---------|
-| 🟦 A0–A2 | Accessible overview (non‑technical) |
-| 🟩 A3–A5 | Engineering architecture (runtime, modules, systems) |
-| 🟧 A6–A8 | Mathematical geometry (manifolds, tensors, operators) |
-| 🟥 A9 | High‑altitude cognitive geometry (NDH‑class) |
+| 🟦 A0–A2 | Accessible overview |
+| 🟩 A3–A5 | Engineering architecture |
+| 🟧 A6–A8 | Mathematical geometry |
+| 🟥 A9 | High‑altitude cognitive geometry |
 
 ---
 
-🟦 1 — What This Engine Actually Is
-NDH‑Gaming‑Mathaggedon is a geometric game engine built from four cooperating layers:
+🟦 1 — Overview
 
-🟦 FSFE — Math Kernel
-The foundational physics layer:  
-- manifolds  
-- curvature envelopes  
+NDH‑Gaming‑Mathaggedon is a next‑generation geometric game engine built on:
+
+- manifold geometry  
 - tensor algebra  
-- operator calculus  
-- projection geometry  
-
-🟩 NDH — Cognitive Runtime
-The AI cognition layer:  
-- modal reasoning  
-- spectral cognition  
-- holonomy clamps  
-- non‑dual merge algebra  
-- collapse‑surface ecology  
-
-🟧 Anime Tower — Narrative Physics
-The story‑physics layer:  
-- narrative curvature  
-- emotional gradients  
-- symbolic pressure  
-- motif tensors  
-- magic‑system physics  
-
-🟩 Fantasy Engine — World Sandbox
-The world‑builder layer:  
-- sandbox manifolds  
-- bifurcation membranes  
-- blueprint logic  
-- magic‑system integration  
+- modal cognition  
+- spectral narrative physics  
 - world‑rule ecology  
+- drift‑neutral sandbox manifolds  
+
+It unifies four major subsystems:
+
+1. FSFE — Math Kernel  
+2. NDH — Cognitive Runtime  
+3. Anime Tower — Narrative Physics  
+4. Fantasy Engine — World Sandbox
 
 Together, these form a full geometric runtime capable of powering:
 
-- fantasy worlds  
-- magic systems  
-- narrative arcs  
-- cognitive NPCs  
-- stable world rules  
-- multi‑modal simulation  
+- Soft‑World simulations  
+- Quest Algebra  
+- Σ/Λ save‑state geometry  
+- 80‑D manifold embeddings  
+- magic‑system physics  
+- narrative curvature  
+- cognitive NPC reasoning  
+
+This engine is under active construction 🏗️.
 
 ---
 
-🟦 2 — Under Construction 🏗️
-
-This engine is actively being built.  
-Many TEX modules are scaffolds awaiting reinforcement.
-
-The repo is structured so that:
-
-- math lives in tex/  
-- documentation lives in docs/  
-- runtime code lives in src/  
-- examples live in examples/  
-- tools live in tools/  
-
-Everything is designed to scale into a full geometric engine.
-
----
-
-🟩 3 — Repository Structure (Full Scaffolding)
+🟩 2 — Repository Structure
 
 `
 <pre> 
-  
+
 NDH-Gaming-Mathaggedon/
 │
 ├── README.md
@@ -138,151 +107,318 @@ NDH-Gaming-Mathaggedon/
 </pre>
 ---
 
-🟧 4 — Mathematical Architecture (FSFE → NDH → Anime Tower → Fantasy Engine)
+🟧 3 — Engine Architecture
 
-🟧 FSFE — Math Kernel
+🟧 FSFE — Math Kernel (A6–A8)
 Defines the physics of the engine:
 
-- \( \mathcal{M} \) — manifolds  
-- \( T_{ij} \) — tensors  
-- \( \kappa \) — curvature envelopes  
-- \( \Pi \) — projection operators  
-- \( \Omega \) — stability conditions  
-
-This is the lowest altitude math layer.
+- manifold definitions  
+- curvature envelopes  
+- tensor algebra  
+- operator calculus  
+- projection geometry  
+- stability conditions  
 
 ---
 
-🟥 NDH — Cognitive Geometry
+🟥 NDH — Cognitive Runtime (A9)
 Defines the AI cognition of the engine:
 
-- modal geometry \( MA, MB, M_C \)  
-- spectral cognition \( \phi_k \)  
-- holonomy clamps \( \text{Hol}_\nabla \)  
-- non‑dual algebra \( x \odot y \)  
+- modal geometry  
+- spectral cognition  
+- holonomy clamps  
+- non‑dual merge algebra  
 - collapse‑surface ecology  
-
-This is the highest altitude math layer.
-
----
-
-🟧 Anime Tower — Narrative Physics
-Defines the story physics:
-
-- narrative curvature \( \mathcal{C}_{narr} \)  
-- emotional gradients \( \nabla E \)  
-- symbolic pressure \( P_{sym} \)  
-- motif tensors \( T_{motif} \)  
-- magic‑system physics \( \Psi_{magic} \)  
-
-This is the narrative manifold.
+- cognitive manifold alignment  
 
 ---
 
-🟩 Fantasy Engine — World Sandbox
-Defines the world‑builder geometry:
+🟧 Anime Tower — Narrative Physics (A6–A8)
+Defines story physics:
+
+- narrative curvature  
+- emotional gradients  
+- symbolic pressure  
+- motif tensors  
+- thematic holonomy  
+- magic‑system physics  
+
+---
+
+🟩 Fantasy Engine — World Sandbox (A3–A5)
+Defines world‑builder geometry:
 
 - sandbox manifolds  
 - bifurcation membranes  
 - blueprint logic  
 - magic‑system integration  
 - world‑rule ecology  
-
-This is the runtime world layer.
+- drift‑neutral world stability  
 
 ---
 
-🟩 5 — Computational Architecture (src/)
+🟧 4 — Advanced Mathematics (A6–A9)
 
-src/math/
-Implements FSFE math:
+The mathematical backbone enabling Soft‑Worlds, Quest Algebra, Σ/Λ Save‑States, and 80‑D embeddings.
 
-- tensor algebra  
-- manifold geometry  
-- operator calculus  
-- stability envelopes  
+---
 
-src/ai/
-Implements NDH cognitive runtime:
+🟧 4.1 — Manifold Geometry
 
-- modal reasoning  
-- spectral cognition  
+Worlds, stories, and cognitive states are modeled as manifolds:
+
+\[
+\mathcal{M}{world},\ \mathcal{M}{narr},\ \mathcal{M}{cog},\ \mathcal{M}{80D}
+\]
+
+Each manifold has:
+
+- curvature \( \kappa \)  
+- metric tensor \( g_{ij} \)  
+- stability envelope \( \Omega \)  
+- projection operators \( \Pi \)  
+
+---
+
+🟧 4.2 — Tensor Algebra
+
+Multiple tensor classes govern engine physics:
+
+- physical tensors  
+- narrative tensors  
+- emotional tensors  
+- symbolic tensors  
+- magic‑system tensors  
+- collapse‑surface tensors  
+
+---
+
+🟥 4.3 — Modal Geometry (NDH)
+
+Cognitive states are modeled as modal manifolds:
+
+\[
+MA,\ MB,\ M_C
+\]
+
+With:
+
+- modal adjacency  
+- modal transport  
+- modal operators  
+
+---
+
+🟥 4.4 — Spectral Logic
+
+Spectral signals \( \phi_k \) encode:
+
+- emotional amplitude  
+- symbolic resonance  
+- narrative tension  
+- cognitive activation  
+
+---
+
+🟥 4.5 — Holonomy & Collapse‑Surface Ecology
+
+Holonomy clamps ensure:
+
+- theme consistency  
+- narrative stability  
+- cognitive coherence  
+- world‑rule preservation  
+
+Collapse‑surface ecology governs:
+
+- drift  
+- collapse  
+- overload  
+- instability  
+
+---
+
+🟧 4.6 — 80‑D Embeddings
+
+Soft‑Worlds and Σ/Λ save‑states use:
+
+- 80‑dimensional manifold embeddings  
+- spectral alignment  
+- modal adjacency  
 - holonomy transport  
 
-src/narrative/
-Implements Anime Tower physics:
+---
 
-- emotional physics  
-- symbolic physics  
-- narrative curvature  
+🟧 5 — Rasa Geometry (A6–A9)
 
-src/world/
-Implements Fantasy Engine:
-
-- sandbox manifolds  
-- blueprint logic  
-- world‑rule ecology  
-
-src/runtime/
-Implements the unified engine runtime.
+The Indian aesthetic lineage as a formal geometric subsystem powering narrative physics.
 
 ---
 
-🟦 6 — How It All Works (Short Explanation)
+🟧 5.1 — Rasa as Tensor Field
 
-Mathematically
-The engine is built on:
+\[
+Rk : \mathcal{M}{narr} \rightarrow \mathbb{R}^n
+\]
 
-- manifolds  
-- tensors  
-- curvature envelopes  
-- modal geometry  
-- spectral logic  
-- holonomy transport  
-
-These define the physics of worlds, stories, and cognition.
+Rasa becomes a computable emotional‑spectral tensor.
 
 ---
 
-Architecturally
-The engine is layered:
+🟧 5.2 — Rasa‑Dhārā as Curvature Flow
 
-1. FSFE → math kernel  
-2. NDH → cognitive runtime  
-3. Anime Tower → narrative physics  
-4. Fantasy Engine → world sandbox  
-5. Integration → cross‑layer binding  
-6. Runtime → unified engine  
+\[
+\frac{d g{ij}}{dt} = -\nabla Rk
+\]
 
-Each layer is independent but interoperable.
+Rasa‑dhārā becomes a geometric flow.
 
 ---
 
-Computationally
-The engine runs:
+🟥 5.3 — Dhvani as Spectral Emission
 
-- world geometry  
-- magic systems  
-- narrative arcs  
-- cognitive NPCs  
-- stable world rules  
+\[
+\phi{dhvani} = \mathcal{F}(Rk)
+\]
 
-All powered by TEX‑defined math.
+Dhvani becomes a spectral signal.
 
 ---
 
-🟦 7 — Under Construction 🏗️ (Active Work)
+🟥 5.4 — Sahrdaya as Cognitive Alignment
 
-The following TEX modules are priority:
+\[
+A{sahrdaya} = \langle Rk,\ M_A \rangle
+\]
 
-- FSFE tensor reinforcement  
-- NDH modal geometry  
-- Anime Tower narrative curvature  
-- Fantasy Engine sandbox manifold  
-- Integration modules  
-- Runtime core  
+Sahrdaya becomes a modal‑spectral alignment operator.
 
-This repo will grow into a full geometric engine.
+---
+
+🟧 6 — Advanced Engine Capabilities
+
+🟧 Soft‑World Architecture
+Holonomy‑safe, drift‑neutral 80‑D worlds.
+
+🟧 Quest Algebra
+Operator‑based narrative logic.
+
+🟥 Σ/Λ Save‑State Geometry
+Spectral + holonomy‑aligned snapshots.
+
+🟥 80‑D Manifold Embeddings
+High‑altitude world and cognition geometry.
+
+---
+
+🟩 7 — Roadmap Summary
+
+The NDH‑Gaming‑Mathaggedon engine is being built in altitude order to ensure mathematical stability, architectural clarity, and runtime coherence.  
+Each phase reinforces the layer beneath it.
+
+Phase I — FSFE Math Kernel (A6–A8)
+- Tensor algebra  
+- Curvature envelopes  
+- Projection geometry  
+- Stability conditions  
+- Collapse‑surface tensors  
+
+Phase II — NDH Cognitive Runtime (A9)
+- Modal geometry  
+- Spectral cognition  
+- Holonomy clamps  
+- Non‑dual merge algebra  
+- Cognitive manifold alignment  
+
+Phase III — Anime Tower Narrative Physics (A6–A8)
+- Narrative curvature  
+- Emotional gradients  
+- Symbolic pressure  
+- Motif tensors  
+- Magic‑system physics  
+
+Phase IV — Fantasy Engine Sandbox (A3–A5)
+- Sandbox manifolds  
+- Bifurcation membranes  
+- Blueprint logic  
+- Magic‑system integration  
+- World‑rule ecology  
+
+Phase V — Cross‑Layer Integration (A6–A9)
+- FSFE ↔ NDH modal integration  
+- NDH ↔ Anime Tower spectral integration  
+- Anime Tower ↔ Fantasy Engine narrative physics integration  
+
+Phase VI — Engine Runtime (A3–A5)
+- Unified runtime core  
+- Engine API  
+- World simulation  
+- Cognitive AI runtime  
+- Narrative physics runtime  
+
+Phase VII — Examples & Demos (A0–A3)
+- Basic worlds  
+- Magic‑system demos  
+- Narrative physics demos  
+- Cognitive AI demos  
+- Full engine demo  
+
+Phase VIII — Tools & Validators (A3–A5)
+- TEX build tools  
+- manifold validator  
+- tensor inspector  
+- narrative simulator  
+- world blueprint generator  
+
+This roadmap ensures the engine grows mathematically first, architecturally second, and computationally third, preventing drift and guaranteeing stability.
+
+---
+
+🏗️ 8 — Under Construction
+
+NDH‑Gaming‑Mathaggedon is an active, evolving engine.  
+The following components are currently under construction:
+
+Math Kernel (FSFE)
+- Reinforcement of tensor classes  
+- Curvature envelope formalization  
+- Collapse‑surface tensor definitions  
+- Projection operator refinement  
+
+Cognitive Runtime (NDH)
+- Modal adjacency maps  
+- Spectral emission operators  
+- Holonomy clamp stability proofs  
+- Non‑dual merge algebra formalization  
+
+Narrative Physics (Anime Tower)
+- Emotional gradient clamps  
+- Symbolic pressure tensors  
+- Narrative curvature envelopes  
+- Motif tensor propagation rules  
+
+World Sandbox (Fantasy Engine)
+- Sandbox manifold scaffolding  
+- Bifurcation membrane geometry  
+- Blueprint logic operators  
+- World‑rule ecology stability layer  
+
+Advanced Systems
+- Soft‑World 80‑D manifold embeddings  
+- Quest Algebra operator library  
+- Σ/Λ save‑state geometry  
+- Rasa tensor integration  
+- Dhvani spectral emission layer  
+- Sahrdaya cognitive alignment  
+
+Runtime & Tools
+- Unified engine runtime  
+- narrative simulator  
+- manifold validator  
+- tensor inspector  
+- blueprint generator  
+
+This section will evolve as TEX modules are populated, mathematical layers stabilize, and runtime systems come online.
 
 ---
 

@@ -1,0 +1,109 @@
+{
+  "engine": "NDH-Gaming-Mathaggedon",
+  "version": "1.0",
+  "altitude_model": "A0-A9",
+  "phases": [
+    {
+      "phase": "I",
+      "name": "FSFE Math Kernel",
+      "altitude": "A6-A8",
+      "modules": [
+        "FSFE-Tensor-Algebra-Core",
+        "FSFE-Curvature-Envelope",
+        "FSFE-Projection-Geometry",
+        "FSFE-Stability-Conditions",
+        "FSFE-CollapseSurface-Tensors"
+      ],
+      "status": "in-progress"
+    },
+    {
+      "phase": "II",
+      "name": "NDH Cognitive Runtime",
+      "altitude": "A9",
+      "modules": [
+        "NDH-Modal-Geometry",
+        "NDH-Spectral-Cognition",
+        "NDH-Holonomy-Clamps",
+        "NDH-NonDual-Algebra",
+        "NDH-Cognitive-Manifold-Alignment"
+      ],
+      "status": "planned"
+    },
+    {
+      "phase": "III",
+      "name": "Anime Tower Narrative Physics",
+      "altitude": "A6-A8",
+      "modules": [
+        "AT-Narrative-Curvature",
+        "AT-Emotional-Gradient-Clamp",
+        "AT-Symbolic-Pressure",
+        "AT-Motif-Tensors",
+        "AT-MagicSystem-Physics"
+      ],
+      "status": "planned"
+    },
+    {
+      "phase": "IV",
+      "name": "Fantasy Engine Sandbox",
+      "altitude": "A3-A5",
+      "modules": [
+        "FE-Sandbox-Manifold",
+        "FE-Bifurcation-Membrane",
+        "FE-Fractal-Blueprint",
+        "FE-WorldRule-Ecology",
+        "FE-MagicSystem-Integration"
+      ],
+      "status": "planned"
+    },
+    {
+      "phase": "V",
+      "name": "Cross-Layer Integration",
+      "altitude": "A6-A9",
+      "modules": [
+        "Integration-FSFE-NDH-Modal",
+        "Integration-FSFE-NDH-Holonomy",
+        "Integration-NDH-AT-Spectral",
+        "Integration-AT-FE-NarrativePhysics"
+      ],
+      "status": "planned"
+    },
+    {
+      "phase": "VI",
+      "name": "Engine Runtime",
+      "altitude": "A3-A5",
+      "modules": [
+        "Engine-Runtime-Core",
+        "Engine-Runtime-API",
+        "Engine-Runtime-Stability",
+        "Engine-Runtime-WorldRules"
+      ],
+      "status": "planned"
+    },
+    {
+      "phase": "VII",
+      "name": "Examples & Demos",
+      "altitude": "A0-A3",
+      "modules": [
+        "BasicWorld",
+        "MagicSystemDemo",
+        "NarrativePhysicsDemo",
+        "CognitiveAI-Demo",
+        "FullEngine-Demo"
+      ],
+      "status": "planned"
+    },
+    {
+      "phase": "VIII",
+      "name": "Tools & Validators",
+      "altitude": "A3-A5",
+      "modules": [
+        "tex-build",
+        "manifold-validator",
+        "tensor-inspector",
+        "narrative-simulator",
+        "world-blueprint-generator"
+      ],
+      "status": "planned"
+    }
+  ]
+}

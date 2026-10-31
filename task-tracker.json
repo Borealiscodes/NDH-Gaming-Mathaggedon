@@ -1,0 +1,113 @@
+{
+  "engine": "NDH-Gaming-Mathaggedon",
+  "tasks": [
+    {
+      "id": "FSFE-001",
+      "module": "FSFE-Tensor-Algebra-Core",
+      "altitude": "A6",
+      "subsystem": "FSFE",
+      "status": "in-progress",
+      "priority": "high",
+      "depends_on": []
+    },
+    {
+      "id": "FSFE-002",
+      "module": "FSFE-Curvature-Envelope",
+      "altitude": "A7",
+      "subsystem": "FSFE",
+      "status": "in-progress",
+      "priority": "high",
+      "depends_on": ["FSFE-001"]
+    },
+    {
+      "id": "FSFE-003",
+      "module": "FSFE-Projection-Geometry",
+      "altitude": "A7",
+      "subsystem": "FSFE",
+      "status": "planned",
+      "priority": "medium",
+      "depends_on": ["FSFE-001"]
+    },
+    {
+      "id": "NDH-001",
+      "module": "NDH-Modal-Geometry",
+      "altitude": "A9",
+      "subsystem": "NDH",
+      "status": "planned",
+      "priority": "high",
+      "depends_on": ["FSFE-002"]
+    },
+    {
+      "id": "NDH-002",
+      "module": "NDH-Spectral-Cognition",
+      "altitude": "A9",
+      "subsystem": "NDH",
+      "status": "planned",
+      "priority": "high",
+      "depends_on": ["NDH-001"]
+    },
+    {
+      "id": "AT-001",
+      "module": "AT-Narrative-Curvature",
+      "altitude": "A7",
+      "subsystem": "AnimeTower",
+      "status": "planned",
+      "priority": "high",
+      "depends_on": ["FSFE-002"]
+    },
+    {
+      "id": "AT-002",
+      "module": "AT-Emotional-Gradient-Clamp",
+      "altitude": "A7",
+      "subsystem": "AnimeTower",
+      "status": "planned",
+      "priority": "medium",
+      "depends_on": ["AT-001"]
+    },
+    {
+      "id": "FE-001",
+      "module": "FE-Sandbox-Manifold",
+      "altitude": "A4",
+      "subsystem": "FantasyEngine",
+      "status": "planned",
+      "priority": "high",
+      "depends_on": ["FSFE-003"]
+    },
+    {
+      "id": "FE-002",
+      "module": "FE-Bifurcation-Membrane",
+      "altitude": "A5",
+      "subsystem": "FantasyEngine",
+      "status": "planned",
+      "priority": "medium",
+      "depends_on": ["FE-001"]
+    },
+    {
+      "id": "INT-001",
+      "module": "Integration-FSFE-NDH-Modal",
+      "altitude": "A8",
+      "subsystem": "Integration",
+      "status": "planned",
+      "priority": "high",
+      "depends_on": ["FSFE-003", "NDH-001"]
+    },
+    {
+      "id": "INT-002",
+      "module": "Integration-NDH-AT-Spectral",
+      "altitude": "A8",
+      "subsystem": "Integration",
+      "status": "planned",
+      "priority": "high",
+      "depends_on": ["NDH-002", "AT-001"]
+    },
+    {
+      "id": "RUNTIME-001",
+      "module": "Engine-Runtime-Core",
+      "altitude": "A4",
+      "subsystem": "Runtime",
+      "status": "planned",
+      "priority": "high",
+      "depends_on": ["INT-001", "INT-002"]
+    }
+  ]
+}

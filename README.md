@@ -1,3 +1,5 @@
+scaffolding 
+
 # 🏗️ NDH‑Gaming‑Mathaggedon
 
 A Geometric Game Engine for Cognitive AI, Narrative Physics & World‑Rule Ecology
